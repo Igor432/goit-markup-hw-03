@@ -38,6 +38,8 @@ body {
     text-decoration: none;
     margin-top: auto;
     margin-bottom: auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .nav_logo>span {
@@ -45,8 +47,11 @@ body {
 }
 
 .menu {
+    text-align: center;
     list-style: none;
     display: flex;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .items {
