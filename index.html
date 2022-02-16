@@ -36,12 +36,12 @@
             </ul>
         </div>
 
-        <div class="header-line"></div>
+
     </header>
 
     <main>
         <section class="main-button">
-            <div class="container container-button">
+            <div class="container">
                 <h1 class="main-slogan">
                     Эффективные решения <br /> для вашего бизнеса
                 </h1>
@@ -54,12 +54,14 @@
         </section>
 
         <!--Качества-->
-        <section class="quality">
-            <div class="container container-quality">
-                <h2 class="quality-h2">Наши Преимущества</h2>
+        <section class="section">
+            <div class="container">
+                <h2 class="quality-title">Наши Преимущества</h2>
+                <!--скрыть-->
                 <ul class="quality-list">
                     <li>
                         <h3 class="quality-h3">Внимание к деталям</h3>
+                        <!--отсуп 10пх маржин-->
                         <p class="quality-p">
                             Идейные соображения, а также начало повседневной работы по формированию позиции.
                         </p>
@@ -88,9 +90,9 @@
 
         <!--Чем мы занимаемся-->
 
-        <section class="task">
-            <div class="container container-task">
-                <h2 class="task-h2">Чем мы занимаемся</h2>
+        <section class="section task">
+            <div class="container">
+                <h2 class="task-title">Чем мы занимаемся</h2>
 
                 <ul class="task-list">
                     <li>
@@ -108,30 +110,39 @@
 
         <!--Наша команда-->
 
-        <section class="team">
-            <div class="container container-team">
-                <h2 class="team-h2">Наша команда</h2>
+        <section class="section team">
+            <div class="container">
+                <h2 class="team-title">Наша команда</h2>
 
                 <ul class="team-list">
                     <li class="team_card">
                         <img src="./images/team/img.jpg" alt="Игорь Демьяненко" width="270" />
-                        <h3 class="teamlist-h3">Игорь Демьяненко</h3>
-                        <p class="teamlist-p">Product Designer</p>
+                        <div class="member-info">
+                            <h3 class="teamlist-h3">Игорь Демьяненко</h3>
+                            <p class="teamlist-p">Product Designer</p>
+                        </div>
                     </li>
                     <li class="team_card">
+
                         <img src="./images/team/img-1.jpg" alt="Ольга Репина" width="270" />
-                        <h3 class="teamlist-h3">Ольга Репина</h3>
-                        <p class="teamlist-p">Frontend Developer</p>
+                        <div class="member-info">
+                            <h3 class="teamlist-h3">Ольга Репина</h3>
+                            <p class="teamlist-p">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="team_card">
                         <img src="./images/team/img-2.jpg" alt="Николай Тарасов" width="270" />
-                        <h3 class="teamlist-h3">Николай Тарасов</h3>
-                        <p class="teamlist-p">Marketing</p>
+                        <div class="member-info">
+                            <h3 class="teamlist-h3">Николай Тарасов</h3>
+                            <p class="teamlist-p">Marketing</p>
+                        </div>
                     </li>
                     <li class="team_card">
                         <img src="./images/team/img-3.jpg" alt="Михаил Ермаков " width="270" />
-                        <h3 class="teamlist-h3">Михаил Ермаков</h3>
-                        <p class="teamlist-p">UI Designer</p>
+                        <div class="member-info">
+                            <h3 class="teamlist-h3">Михаил Ермаков</h3>
+                            <p class="teamlist-p">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -139,20 +150,20 @@
     </main>
 
     <footer>
-        <div class="container container-footer">
+        <div class="container">
             <a href="" class="footer-logo"><span>Web</span>Studio</a>
-            <ul id="address">
-                <li>
-                    <a href="https://goo.gl/maps/dbALaQ9YhSVhBDLY6" class="footer-address">г. Киев, пр-т Леси Украинки, 26</a
+            <ul class="address">
+                <li class="address-list">
+                    <address>   
+                        <a href="https://goo.gl/maps/dbALaQ9YhSVhBDLY6" class="footer-address">г. Киев, пр-т Леси Украинки, 26</a> 
+                </li>
+                <li class="address-list">
+                    <a href="mailto:info@devstudio.com" class="footer-mail">info@devstudio.com</a
             >
           </li>
-          <li class="footer-m">
-            <a href="mailto:info@devstudio.com" class="footer-mail"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="footer-t">
+          <li class="address-list">
             <a href="tel:+380961111111" class="footer-tel">+38 096 111 11 11</a>
+        </address>
                 </li>
             </ul>
         </div>
